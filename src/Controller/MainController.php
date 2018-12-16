@@ -14,7 +14,7 @@ class MainController extends AbstractController
      */
     public function index(MessageBusInterface $messageBus)
     {
-        $messageBus->dispatch(new SendSmsMessage("Hello World"));
+        // $messageBus->dispatch(new SendSmsMessage("Hello World"));
         return $this->render('main/index.html.twig', [
             'controller_name' => 'MainController',
         ]);
