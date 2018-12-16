@@ -9,7 +9,7 @@ monolog:
                 - ^/
         nested:
             type: stream
-            path: "php://std"
+            path: "php://stderr"
             level: debug
         console:
             type: console
