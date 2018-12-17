@@ -16,4 +16,5 @@
 /.web-server-pid
 ###< symfony/web-server-bundle ###
 
-.idea
+.idea/
+rabbitmq-dump-queue-v0.3-darwin-amd64/
