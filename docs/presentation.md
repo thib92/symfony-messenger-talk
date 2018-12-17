@@ -9,7 +9,7 @@ slidenumbers: true
 
 ---
 
-# [fit] About me 👨‍💻
+# About me 👨‍💻
 
 - French engineering student
 - Technical manager @ Junior ISEP
@@ -18,7 +18,7 @@ slidenumbers: true
 
 ---
 
-# [fit] The challenge
+# The challenge
 
 - PHP is a synchronous language
 - It's difficult to execute things outside of a request / response context
@@ -26,7 +26,7 @@ slidenumbers: true
 
 ---
 
-# [fit] The challenge
+# The challenge
 
 - Call to a 3rd party API
 - Big processing after a user interaction
@@ -35,16 +35,16 @@ slidenumbers: true
 
 ---
 
-# [fit] Quick example
+# Quick example
 
 ---
 
-# [fit] A solution:<br>Asynchronous operations
+# A solution:<br>Asynchronous operations
 Aka postponing **("I'll just do it later 🤷‍♂️")**
 
 ---
 
-# [fit] Quick questions
+# Quick questions
 
 [.build-lists]
 - Who has worked with IaaS before?
@@ -55,13 +55,13 @@ Aka postponing **("I'll just do it later 🤷‍♂️")**
 
 ---
 
-# [fit] Recap on the Symfony Messenger
+# Recap on the Symfony Messenger
 
 ![inline](./messenger.png)
 
 ---
 
-# [fit] It's (small) demo time!
+# It's (small) demo time!
 
 ---
 
@@ -78,3 +78,8 @@ Aka postponing **("I'll just do it later 🤷‍♂️")**
 - Separate the work between different components / services of your application
 - Multiple languages in your project
 - Asynchronous operations for heavy duty (or long-running processes)
+
+---
+
+# Thanks!
+## Questions?
