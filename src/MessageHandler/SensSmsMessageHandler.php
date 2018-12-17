@@ -20,10 +20,11 @@ class SensSmsMessageHandler implements MessageHandlerInterface
 
     /**
      * SensSmsMessageHandler constructor.
+     * @param ContainerInterface $container
      */
     public function __construct(ContainerInterface $container)
     {
-        $this->client= $container->get('eight_points_guzzle.client.my_client');
+        $this->client = $container->get('eight_points_guzzle.client.my_client');
     }
 
     public function __invoke(SendSmsMessage $message)

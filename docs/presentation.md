@@ -69,4 +69,12 @@ Aka postponing **("I'll just do it later 🤷‍♂️")**
 
 - Receive an API call
 - Send an message through the Symfony Messenger to RabbitMQ
-- Handle the message later
+- Handle the message later (either with the console or with another service)
+
+---
+
+# The benefits
+
+- Separate the work between different components / services of your application
+- Multiple languages in your project
+- Asynchronous operations for heavy duty (or long-running processes)
