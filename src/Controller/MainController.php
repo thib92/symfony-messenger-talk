@@ -31,9 +31,9 @@ class MainController extends AbstractController
      */
     public function index(MessageBusInterface $messageBus)
     {
-        // $messageBus->dispatch(new SendSmsMessage("Hello World"));
-        // return new Response("Sent command to the webservice");
-        $res = $this->client->get('/');
-        return new Response($res->getBody());
+        $messageBus->dispatch(new SendSmsMessage("Hello World"));
+        return new Response("Sent command to the webservice");
+        // $res = $this->client->get('/');
+        // return new Response($res->getBody());
     }
 }

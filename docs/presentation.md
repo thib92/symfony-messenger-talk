@@ -69,6 +69,7 @@ Aka postponing **("I'll just do it later 🤷‍♂️")**
 
 - Receive an API call
 - Send an message through the Symfony Messenger to RabbitMQ
+- Respond **now** to the client
 - Handle the message later (either with the console or with another service)
 
 ---
